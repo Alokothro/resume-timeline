@@ -1,0 +1,116 @@
+\documentclass[10pt, letterpaper]{article}
+\usepackage[top=0.5in, bottom=0.5in, left=0.7in, right=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{microtype}
+\usepackage{parskip}
+\usepackage{array}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Decorative section header with rules on both sides
+\newcommand{\ressection}[1]{%
+  \vspace{6pt}
+  \begin{center}
+    \rule{0.3\textwidth}{0.4pt}\quad\textbf{#1}\quad\rule{0.3\textwidth}{0.4pt}
+  \end{center}
+  \vspace{2pt}
+}
+
+% Centered experience entry
+\newcommand{\expentry}[3]{%
+  \begin{center}
+    \textbf{#1} \textbar{} #2 \textbar{} #3
+  \end{center}
+}
+
+\begin{document}
+
+% ---- Header ----
+\begin{center}
+  {\fontsize{26}{30}\selectfont\textsc{\MakeUppercase{Alok Patel}}}\\[5pt]
+  alokothro@gmail.com \quad\textbar\quad (803) 899-4393 \quad\textbar\quad Rock Hill, SC 29730 \quad\textbar\quad \textbf{WWW:} https://github.com/Alokothro
+\end{center}
+
+% ---- Summary ----
+\ressection{Summary}
+
+\noindent Student at the University of South Carolina, majoring in computer science, with a strong passion to dive into the field. A dedicated student who consistently meets deadlines and is eager to explore different areas of computer science to gain insight from every angle and achieve mastery.
+
+% ---- Skills ----
+\ressection{Skills}
+
+\vspace{2pt}
+\begin{tabularx}{\textwidth}{X X}
+  \begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=0pt]
+    \item Python
+    \item Java
+    \item HTML
+    \item C++
+  \end{itemize}
+  &
+  \begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=0pt]
+    \item Organization
+    \item Creativity
+    \item Communications
+    \item Critical Thinking
+  \end{itemize}
+\end{tabularx}
+
+% ---- Experience ----
+\ressection{Experience}
+
+\expentry{Manager}{AMR Services - Rock Hill, SC}{05/2024 - Current}
+
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=1pt]
+  \item Developed and maintained Excel-based financial tracking sheets to manage profits, expenses, and revenue, gaining experience in data analysis and financial modeling.
+  \item Designed and implemented a payroll system using spreadsheet formulas to calculate employee compensation based on job attendance and profit sharing, reinforcing logic and problem-solving skills.
+  \item Integrated Calendly for customer appointment bookings, streamlining client scheduling and improving service efficiency.
+  \item Designed marketing materials (door hangers) to attract new clients, enhancing creativity and user engagement in promotional strategies.
+  \item Managed all aspects of business operations, including customer relations, team coordination, and financial management.
+\end{itemize}
+
+\vspace{4pt}
+
+\expentry{Associate}{The Home Depot - Rock Hill, SC}{06/2022 - Current}
+
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=1pt]
+  \item Developed strong problem-solving skills by assisting customers with various inquiries and troubleshooting order issues.
+  \item Collaborated with other associates to optimize order fulfillment processes and efficiently fill orders.
+  \item Gained hands-on experience with inventory management systems and data entry, reinforcing attention to detail and organizing orders.
+\end{itemize}
+
+% ---- Education and Training ----
+\ressection{Education and Training}
+
+\begin{center}
+  University of South Carolina - Columbia \quad\textbar\quad Columbia, SC\\[3pt]
+  Computer Science\\[5pt]
+  \textbf{Relevant Coursework}
+\end{center}
+
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=1pt]
+  \item Algorithmic Design 1 \& 2
+  \item Software Engineering
+  \item Advance Programming Techniques
+\end{itemize}
+
+\begin{center}
+  \textbf{Projects}
+\end{center}
+
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=1pt]
+  \item Developed a temporary clock-in system for hotel employees to track working hours and attendance which was written in Python due to their system being down
+  \item Made a basic car infotainment system interface, providing features such as media control, navigation display, music, and basic vehicle information
+\end{itemize}
+
+\vspace{4pt}
+
+\begin{center}
+  Rock Hill High School \quad\textbar\quad Rock Hill, SC\\[3pt]
+  2019--2023\\
+  \textbf{High School Diploma}
+\end{center}
+
+\end{document}

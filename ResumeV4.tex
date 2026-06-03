@@ -1,0 +1,172 @@
+%-------------------------
+% Resume in Latex
+% Author: Alok Patel
+% License: MIT
+%------------------------
+
+\documentclass[letterpaper,10.5pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.4in}
+\addtolength{\evensidemargin}{-0.4in}
+\addtolength{\textwidth}{0.8in}
+\addtolength{\topmargin}{-.4in}
+\addtolength{\textheight}{0.8in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+\vspace{-15pt}
+    \textbf{\Huge \scshape Alok Patel} \\
+    \vspace{5pt}
+    \small (803) 899-4393 $|$ \href{mailto:alokothro@gmail.com}{\underline{alokothro@gmail.com}} $|$
+    \href{https://www.linkedin.com/in/alokothro/}{\underline{www.linkedin.com/in/alokothro}}
+    $|$
+    \href{https://github.com/Alokothro}{\underline{https://github.com/Alokothro}}
+\end{center}
+\vspace{-10pt}
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of South Carolina}{Expected Graduation: May 2027}
+      {Bachelor's of Science in Computer Science}{}
+
+      \resumeItemListStart
+        \resumeItem{\textbf{Relevant Coursework:} Advanced Programming Tech, Algorithmic Design I \& II, Data Structures and Algorithms, Digital Logic Design, Operating Systems, Software Engineering, Programming Language Structures, UNIX/Linux Fundamentals, Introduction to Computer Architecture, Database System Design, Intro to Computer Networks}
+        \resumeItem{\textbf{Extracurricular Activities:} American Association of Engineers of Indian Origin, CodePath, Association for Computing Machinery, Minorities in Tech}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+  \vspace{-15pt}
+
+\section{Technical Skills}
+    \resumeSubHeadingListStart
+        \resumeSubheading
+        {}{}{}{}
+        \vspace{-28pt}
+        \resumeItemListStart
+            \resumeItem{\textbf{Programming Languages:} Python, Java, JavaScript, C++, HTML/CSS, SQL}
+            \resumeItem{\textbf{Frameworks and Libraries:} React, Flask, Ruby on Rails, JavaFX, AWS SDK, NumPy, OpenCV}
+            \resumeItem{\textbf{Software and Tools:} Git, Docker, Linux, VS Code, Firebase, MongoDB, MySQL, PostgreSQL}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+\section{Professional Experience}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Manager}{May 2024 -- Present}
+      {AMR Services}{Rock Hill, SC}
+        \resumeItemListStart
+        \resumeItem{Developed and maintained Excel-based financial tracking sheets to manage profits, expenses, and revenue, using data analysis and financial modeling}
+        \resumeItem{Designed and implemented a payroll system using spreadsheet formulas to calculate employee compensation based on job attendance and profit sharing, reinforcing logic and problem-solving skills}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Engineering Intern}{Jul 2025 -- Sept 2025}
+      {Chinchilla AI}{Remote}
+      \resumeItemListStart
+        \resumeItem{Built full-stack car infotainment system with FastAPI backend and JavaScript frontend, integrating Google Maps and Spotify APIs for navigation and media streaming}
+        \resumeItem{Collaborated in agile environment with daily standups and used AI tools to accelerate delivery of portfolio-ready demo}
+        \resumeItem{Developed AI-powered stock analysis platform aggregating multi-source financial data and news sentiment to generate automated recommendations for S\&P 500 securities}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+      \vspace{-15pt}
+
+\section{Projects}
+\resumeSubHeadingListStart
+ \resumeSubheading
+    {LingoQuest - Java, JavaFX, AWS Polly, Maven, JPMS, HTML/CSS}{}{}{}
+    \vspace{-17pt}
+    \resumeItemListStart
+        \resumeItem{Collaborated with 4-person team to architect enterprise-grade language learning platform with 15+ JavaFX controllers, AWS Polly text-to-speech integration, modular Maven/JPMS architecture, live leaderboards, and 4 interactive question types using MVC design pattern}
+        \resumeItem{Engineered multiplayer functionality with dynamic friend requests, persistent rankings, adaptive difficulty algorithms, and gamification features including streak tracking and coin rewards to increase user engagement by 30\%}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {AMR Booking System - Python, Flask, JavaScript, HTML/CSS, PostgreSQL}{}{}{}
+      \vspace{-17pt}
+      \resumeItemListStart
+        \resumeItem{Developed a full-stack web application for a real landscaping and pressure washing business, automating customer bookings and scheduling workflows to reduce manual operations by 80\%}
+        \resumeItem{Built a responsive frontend with Bootstrap 5 and Google Maps API integration, implementing secure authentication with Flask-Login, Werkzeug hashing, and role-based access for customers and admins}
+        \resumeItem{Designed normalized database schema with PostgreSQL/SQLAlchemy and deployed production system to Render with RESTful APIs, automated deployments, and email notifications via SMTP/SSL serving 50+ weekly bookings}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-15pt}
+
+\section{Leadership Experience}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Phi Iota Alpha}{May 2024 -- May 2025}
+      {Alumni Relations Director}{University of South Carolina}
+      \resumeItemListStart
+        \resumeItem{Designed and maintained alumni contact database using Google Sheets and automation tools, improving outreach capacity.}
+        \resumeItem{Coordinated email campaigns and digital updates, increasing engagement with events and chapter news for 100+ alumni.}
+        \resumeItem{Led technical setup for hybrid events (Zoom), enhancing accessibility and communications.}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+\section{Additional Skills \& Interests}
+
+\small{Agile Development Methodologies, Full-Stack Development, AI/ML Integration, Cloud Deployment, Automation, API Design, Cross-Functional Collaboration, Building Solutions for Real Businesses, Analytical Problem Solving, Debugging, Unit Testing}
+\end{document}
