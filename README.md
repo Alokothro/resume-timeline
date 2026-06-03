@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=From+landscaper+to+software+engineer.;Every+version+tells+a+story.;Growth+documented+in+LaTeX.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=From+high+school+graduate+to+present.;An+ever-evolving+story+of+growth.;Every+bullet+point+earned.;Work+in+progress%2C+always.;V5+coming+soon.)](https://git.io/typing-svg)
 
 </div>
 
